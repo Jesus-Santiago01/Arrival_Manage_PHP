@@ -1,0 +1,257 @@
+<html>
+
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
+  	<link rel="stylesheet" type="text/css" href="css/hut.css">
+  	<link rel="stylesheet" type="text/css" href="css2/men.css">
+  </head>
+  <style>
+	  .fondo{
+		  background:url(img/lok29.gif);
+		  background-size: cover;
+		  -moz-background-size: cover;
+		  -webkit-background-size: cover;
+	    -o-background-size: cover;
+    }
+	.Botones{
+   height: 5%;
+   width: 30%;
+  outline: none;
+  color: #00FBEC;
+  border-radius: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: #000000;
+ }
+ .Botones:hover{
+   color: #000000;
+   background: #00FBEC;
+ }
+   .Registro{
+	
+	position: relative;
+	display: none;
+	}
+	#cerrar{
+		position: absolute;
+		right: 9px;
+		top:7px;
+	}
+	
+.form{
+    position: relative;
+    width: 20rem;
+    height: 3rem;
+    width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.form__input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #00FBEC;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: #ffffff;
+    outline: none;
+    padding: 1.25rem;
+    background: none;
+}
+.form__input:hover{
+    border-color: #F000FB;
+}
+.form__input:focus{
+    border-color: #1EFB00;
+}
+.form__label{
+    position: absolute;
+    left: 1rem;
+    top:0.8rem;
+    padding: 0 0.5rem;
+    color: #ffffff;
+    cursor: text;
+    transition: top 200ms ease-in,
+    left 200ms ease-in,
+    font-size 200ms ease-in;
+    background-color: #060b23;
+}
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+  top: -0.2rem;
+  font-size: 0.8rem;
+  left: 0.8rem;
+}
+	</style>
+  <body class="fondo">
+    <div class="limite" >
+		<div class="contenedor" >
+
+		<div class="loginimg p-l-55 p-r-55 p-t-65 p-b-54" style="
+		background: transparent;
+		background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+      -o-background-size: cover;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(7px);">
+
+<!-- Login -->
+<div id="Login" class="Login">
+	<form action="login.php" method="POST" >
+		<span class="logintitulo p-b-49">
+		<font face="Century Gothic">
+			<h5 style="color: #ffffff;">Arrival Of Staff</h5>
+			<h7 style="color: #ffffff;">(Administrador)</h7>
+	</span>
+	<div class="form">
+		<input type="text" name="usuario" autocomplete="off" id="usuario" class="form__input"
+		placeholder=" " required>
+		<label for="usuario" class="form__label">Usuario</label>
+	</div>
+	<br>
+	<div class="form">
+		<input type="password" name="contraseña" autocomplete="off" id="contraseña" class="form__input"
+		placeholder=" " required>
+		<label for="contraseña" class="form__label">Contraseña</label>
+	</div>
+	<br>
+			<br>
+			<br>
+	<div class="">
+			<div class="">
+			<div class=""></div>
+			<center>
+		<button class="Botones">
+		  Ingresar
+		  </button></center>
+		  <br>
+		  <br>
+		  <div class="flex-col-c p-t-40">
+			<a href="javascript:abrir()" class="txt2">
+			<h3 style="font-family: monospace ;font-size:18px; color:#00FBEC;">Registrate</h3>
+			</a>
+			</div>
+			</div>
+			</div>
+</form>
+</div>
+<!-- Login -->
+
+
+<!-- Registro -->
+<div id="Registro" class="Registro">
+<form action="registro.php" method="POST" >
+	<div id="cerrar">
+		<button class="Botones" onclick="location.href='javascript:cerrar()'" >
+		X</button>
+		</div>
+	<span class="logintitulo p-b-59" style="color: #ffffff;">
+	Registro
+	</span>
+	<br>
+	<div class="form">
+		<input type="text" name="nombre" autocomplete="off" id="nombre" class="form__input"
+		placeholder=" " required>
+		<label for="nombre" class="form__label">Nombre</label>
+	</div>
+	<br>
+	<div class="form">
+		<input type="text" name="apaterno" autocomplete="off" id="apaterno" class="form__input"
+		placeholder=" " required>
+		<label for="apaterno" class="form__label">Apellido Paterno</label>
+	</div>
+	<br>
+	<div class="form">
+		<input type="text" name="amaterno" autocomplete="off" id="amaterno" class="form__input"
+		placeholder=" " required>
+		<label for="amaterno" class="form__label">Apellido Materno</label>
+	</div>
+	<br>
+	<div>
+		<center>
+	<table>
+		<tr>
+		<th style="background: transparent; color: #ffffff;">Turno</th>
+		<th style="background: transparent; color: #ffffff;">Puesto</th>
+		<th style="background: transparent; color: #ffffff;">Area</th>
+		</tr>
+		<tr>
+		<td>
+		<select name="turno" class="turno" id="turno" style="background: transparent; color: #ffffff;">
+		<option value="1" style="background: #000000; font-family: monospace ;font-size:16px; color:#ffffff;">1ro</option>
+		<option value="2" style="background: #000000; font-family: monospace ;font-size:16px; color:#ffffff;">2do</option>
+		<option value="2" style="background: #000000; font-family: monospace ;font-size:16px; color:#ffffff;">3ro</option>
+		</select>
+		</td>
+		<td>
+		<select name="puesto" class="puesto" id="puesto" style="background: transparent; color: #ffffff;">
+		<option value="rep2" style="background: #000000; font-family: monospace ;font-size:16px; color:#ffffff;">Analista</option>
+		</select>
+		</td>
+		<td>
+		<select name="area" class="area" id="area" style="background: transparent; color: #ffffff;">
+		<option value="inbound" style="background: #000000; font-family: monospace ;font-size:16px; color:#ffffff;">Inbound</option>
+		</select>
+		</td>
+	</tr>
+	</table>
+	</center>
+	<br>
+	<br>
+	</div>
+	
+	<div class="form">
+		<input type="text" name="usuario" autocomplete="off" id="usuario" class="form__input"
+		placeholder=" " required>
+		<label for="usuario" class="form__label">Usuario</label>
+	</div>
+  <br>
+	<div class="form">
+		<input type="password" name="contraseña" autocomplete="off" id="contraseña" class="form__input"
+		placeholder=" " required>
+		<label for="contraseña" class="form__label">Contraseña</label>
+	</div>
+	<br>
+	<div class="form">
+		<input type="password" name="confirmacion" autocomplete="off" id="confirmacion" class="form__input"
+		placeholder=" " required>
+		<label for="confirmacion" class="form__label">Confirmacion de administrador</label>
+	</div>
+  <br>
+  <center>
+  <button class="Botones">
+	Registrarme
+  </button></center>
+</form>
+</div>
+<!-- Registro -->
+</div>
+</div>
+</div>
+</body>
+<script>
+function abrir(){
+  document.getElementById("Registro").style.display="block";
+  document.getElementById("Login").style.display="none";
+  
+  
+}
+function cerrar(){
+	document.getElementById("Login").style.display="block";
+  document.getElementById("Registro").style.display="none";
+}
+</script>
+
+
+		
+
+</html>

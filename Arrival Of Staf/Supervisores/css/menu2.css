@@ -1,0 +1,398 @@
+
+
+a.navbar:hover{
+	color:red;
+	font-weight:bold;
+	backgroundimage:url(http://www.nackvision.com/myspace/links/lightningline.gif);
+}
+a:hover, a.redlink:hover, a.navbar:hover {
+	backgroundimage:url(http://www.nackvision.com/myspace/links/lightningline.gif);
+	text-decoration:none; border:0px solid;
+}
+a:hover img {
+	backgroundimage:url(http://www.nackvision.com/myspace/links/lightningline.gif);
+	filter:alpha(finishopacity=0, style=2);
+}
+
+#c2{
+  width: 400px;
+  background: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+
+
+
+  float: right;
+  width: 15%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#c1{
+  width: 400px;
+  background: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+
+  float: left;
+  width: 20%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+  /*border: 2px gray dashed solid;*/
+#c3::-webkit-scrollbar {
+	width: 7px;
+}
+
+#c3::-webkit-scrollbar-thumb{
+		background: #FFFFFF;
+		border-radius: 5px;
+}
+
+#c3{
+  width: 400px;
+  background: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+
+  width:59%;
+  float: right;
+  min-height:  100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: right;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+iframe { width: 900px; height: 400px;}
+
+
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+a {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*---------------------------------------------
+ Login*/
+.comentario {
+	color:white;
+}
+
+.limite {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contenedor {
+  border-radius: 10px;
+  width: 200px 200px 200px 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+
+}
+
+.loginimg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: calc(100% - 620px);
+  position: relative;
+  z-index: 1;
+}
+
+.loginimg::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.areat{
+  width: 520px;
+  min-height: 100vh;
+  background: #fff;
+  border-radius: 2px;
+  position: relative;
+}
+
+.logintitulo {
+  display: block;
+  width: 100%;
+  font-family: Poppins-Bold;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.imputt {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #dbdbdb;
+  margin-bottom: 40px;
+}
+
+.imputta {
+  width: 30%;
+  position: relative;
+  border-bottom: 2px solid #dbdbdb;
+  margin-bottom: 10px;
+}
+
+.labelinput {
+  font-family: Poppins-SemiBold;
+  font-size: 18px;
+  color: #999999;
+  line-height: 1.2;
+  padding-left: 2px;
+}
+
+.inputa {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  font-family: Poppins-Regular;
+  font-size: 22px;
+  color: #555555;
+  line-height: 1.2;
+  padding: 0 2px;
+}
+
+.imputf {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.contenedorbtn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedorbtna {
+  width: 15%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:600px;
+}
+
+.btnimput{
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.btnimputf {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 300%;
+  background: #5F9EA0;
+  background: -webkit-linear-gradient(top, #000000, #FFFFFF, #000000, #FFFFFF);
+  background: -o-linear-gradient(top, #000000, #FFFFFF, #000000, #FFFFFF);
+  background: -moz-linear-gradient(top, #000000, #FFFFFF, #000000, #FFFFFF);
+  background: linear-gradient(top, #000000, #FFFFFF, #000000, #FFFFFF);
+  bottom: -100%;
+  left: 0;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btnimputf2 {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 300%;
+  background: #5F9EA0;
+  background: -webkit-linear-gradient(top, #000000, #FFFFFF, #000000, #FFFFFF);
+  background: -o-linear-gradient(top, #000000, #FFFFFF, #000000, #FFFFFF);
+  background: -moz-linear-gradient(top, #000000, #FFFFFF, #000000, #FFFFFF);
+  background: linear-gradient(top, #000000, #FFFFFF, #000000, #FFFFFF);
+  bottom: -100%;
+  left: 0;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.imputbtn a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+  min-width: 20px;
+  height: 60px;
+
+  font-family: Poppins-Medium;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 1.2;
+}
+
+.imputbtna a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 20px;
+  height: 30px;
+
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 1.2;
+}
+
+.btnimput:hover .btnimputf {
+  bottom: 0;
+}
+
+.btnimput:hover .btnimputf2 {
+  bottom: 0;
+}

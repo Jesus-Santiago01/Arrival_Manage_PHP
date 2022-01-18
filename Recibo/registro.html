@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+<title>Registro</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="css/hut.css">
+<link rel="stylesheet" type="text/css" href="css/menu2.css">
+  </head>
+  <body>
+      <style>
+      .Botones{
+        height: 45px;
+        margin: 45px 0;
+      }
+     .Botones{
+       height: 6%;
+       width: 100%;
+      outline: none;
+      color: #000000;
+      border-radius: none;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 5px;
+      letter-spacing: 1px;
+      background: #FFF05C;
+     }
+     .Botones:hover{
+       color: #FFF05C;
+       background: #000000;
+     }
+      </style>
+      <div class="limite">
+      <div class="contenedor">
+      <div class="loginimg" style="background-image: url('img/lok22.jpg');"></div>
+      <div class="areat p-l-50 p-r-50 p-t-79 p-b-50">
+      <form action="registro.php" method="POST">
+          <span class="logintitulo p-b-59">
+          Registro
+          </span>
+          <div class="imputt">
+            <span class="labelinput" style="font-family: monospace ;font-size:16px; color:#000000;">Nombre</span>
+            <input class="inputa" type="text" name="nombre"  style="font-family: monospace ;font-size:16px; color:#000000;" placeholder="Nombre..." required>
+            <span class="imputf"></span>
+          </div>
+          <div class="imputt">
+            <span class="labelinput" style="font-family: monospace ;font-size:16px; color:#000000;">Apellido paterno</span>
+            <input class="inputa" type="text" style="font-family: monospace ;font-size:16px; color:#000000;" name="apaterno" placeholder="Apellido paterno..." required>
+            <span class="imputf"></span>
+          </div>
+          <div class="imputt">
+            <span class="labelinput" style="font-family: monospace ;font-size:16px; color:#000000;">Apellido materno</span>
+            <input class="inputa" type="text" name="amaterno" style="font-family: monospace ;font-size:16px; color:#000000;" placeholder="Apellido materno..." required>
+            <span class="imputf"></span>
+          </div>
+          <div>
+            <label for="turno"  class="labelinput" style="font-family: monospace ;font-size:16px; color:#000000;">Turno:</label>
+            <select name="turno" class="turno" id="turno">
+            <option value="1" style="font-family: monospace ;font-size:16px; color:#000000;">1ro</option>
+            <option value="2" style="font-family: monospace ;font-size:16px; color:#000000;">2do</option>
+            </select>
+          <br>
+          <br>
+          </div>
+        <div class="imputt">
+          <span class="labelinput" style="font-family: monospace ;font-size:16px; color:#000000;">Usuario</span>
+          <input class="inputa" type="text" name="usuario" style="font-family: monospace ;font-size:16px; color:#000000;" placeholder="Usuario..." required>
+          <span class="imputf"></span>
+        </div>
+        <div class="imputt">
+          <span class="labelinput" style="font-family: monospace ;font-size:16px; color:#000000;">Contraseña</span><br>
+          <input class="inputa" type="password" name="contraseña"  style="font-family: monospace ;font-size:16px; color:#000000;" placeholder="Contraseña..." required >
+          <span class="imputf"></span>
+        </div>
+        <div class="imputt">
+          <span class="labelinput" style="font-family: monospace ;font-size:16px; color:#000000;">CONFIRMACION DE REGISTRO</span>
+          <input class="inputa" type="password" name="confirmacion"   style="font-family: monospace ;font-size:16px; color:#000000;" placeholder="Clave de confirmacion..." required>
+          </input>
+          <span class="imputf"></span>
+        </div>
+        <button class="Botones">
+          Registrarme
+        </button>
+      </form>
+      </div>
+      </div>
+      </div>
+    </body>
+
+<html>

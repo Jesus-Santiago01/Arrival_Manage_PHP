@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box; }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333; 
+    justify-content: center;
+    align-items: center;
+}
+    
+  
+  h1 {
+    text-align: center;
+    color: #333; }
+   
+     .Botones{
+      outline: none;
+      color: #000000;
+      border-radius: none;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 5px;
+      letter-spacing: 1px;
+      background: #FFF05C;
+      border-color: #000000;
+     }
+     .Botones:hover{
+       color: #FFF05C;
+       background: #000000;
+       border-color: #FFF05C;
+     }
+     .contenedor{
+       
+        width: 100%;
+        background: #FFFFFF;
+        padding: 25px 30px;
+        border-radius: 8px;
+      }
+      form{
+        width:100%;
+        padding:20px;
+        border-radius:10px;
+        margin:auto;
+        background-color:#FFFFFF;
+    }
+  
+  .table-rwd {
+    font-size: .85em;
+    border: 1px solid rgba(181, 213, 144, 0.5);
+    color: #666;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto; }
+    .table-rwd td, .table-rwd th {
+      padding: .8em;
+      border-bottom: 1px solid rgba(181, 213, 144, 0.5); }
+    .table-rwd th {
+      background: #FFF05C;
+      color: #000000;
+      color: rgb(0, 0, 0);
+      font-weight: normal;
+      text-align: center; }
+    .table-rwd td {
+      text-align: center; }
+      .table-rwd td:first-of-type {
+        text-align: center; }
+    .table-rwd tr:hover {
+      background: rgb(241, 241, 241); }
+    .table-rwd tr td:nth-child(2n) {
+      background: rgb(241, 241, 241) }
+  
+  .table-container {
+    overflow-x: auto; }
+  
+  .ventana{
+      background-color: #fffbfb;
+      width: 90%;
+      color: rgb(0, 0, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      text-align: center;
+      padding: 33px;
+      min-height: 350px;
+      border-radius: 22px;
+      position: absolute;
+      left: 5%;
+      top: 15%;
+      display: none;
+      box-shadow: 0 10px 10px #0d0e2346;
+      border: 3px solid #e0d206;
+  }
+  #cerrar{
+      position: absolute;
+      right: 9px;
+      top:7px;
+  }
+  .frame{
+    width: 100%;
+    min-height: 350px;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+      -o-background-size: cover;
+  }
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+  }
+  .contenedor form .registrar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .registrar .imputt{
+    margin-bottom: 15px;
+  }
+  .registrar .imputt .labelinput{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .registrar .imputt input{
+    height: 45px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  .registrar .imputt input:focus{
+    border-color: #FFF05C;
+  }
+  .ventana2{
+    background-color: #fffbfb;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 350px;
+    border-radius: 22px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    display: none;
+    box-shadow: 0 10px 10px #0d0e2346;
+    border: 3px solid #e0d206;
+  }
+  #cerrar2{
+    position: absolute;
+    right: 9px;
+    top:7px;
+  }
+  .ventana3{
+    background-color: #fffbfb;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 350px;
+    border-radius: 22px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    display: none;
+    box-shadow: 0 10px 10px #0d0e2346;
+    border: 3px solid #e0d206;
+  }
+  #cerrar3{
+    position: absolute;
+    right: 9px;
+    top:7px;
+  }
+  .ventana4{
+    background-color: #fffbfb;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 350px;
+    border-radius: 22px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    display: none;
+    box-shadow: 0 10px 10px #0d0e2346;
+    border: 3px solid #e0d206;
+  }
+  #cerrar4{
+    position: absolute;
+    right: 9px;
+    top:7px;
+  }
